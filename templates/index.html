@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='css/style.css') }}">
+    <script src="{{ url_for('static',    filename='js/bmi.js') }}" ></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+
+    <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">BMI CALCULATOR</h1>
+    <div class="container" id="cont"> 
+        <p><b>Provide your weight in (kg) and height in (meter).</b></p>
+        <div class="weight">    
+            <p>Enter Weight</p>
+            <input type="text" class="inputweight" id="weight">
+        </div>
+        <div class="height">
+            <p>Enter Height</p>
+            <input type="text" class="inputheight" id="height">
+        </div>
+        <input type="button" class="button" value="CALCULATE" onclick="bmi()">
+        <br>
+        <p style="display: none;" id="bmi"></p>
+        <input type="button" class="reset" id="reset" style="display: none;" value="RESET" onclick="reset()">
+    </div>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkseagreen;
+    height: 210px;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 520px;
+    text-align: center;
+}
+.height{
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+.weight{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+.button{
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color:gold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bmi{
+    margin: 10px auto;
+    text-align: center;
+    width: 180px;
+    height: 21px;
+    background-color:chartreuse;
+    border-radius: 8px;
+}
+.reset{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    border-radius: 5px;
+    background-color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .chart{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+}
+.show{
+    border-radius: 5px;
+    background-color:gold;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+} */
